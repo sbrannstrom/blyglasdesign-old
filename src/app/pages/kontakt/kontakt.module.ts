@@ -8,6 +8,7 @@ import { KontaktPageRoutingModule } from './kontakt-routing.module';
 
 import { KontaktPage } from './kontakt.page';
 import { ComponentsModule } from 'src/app/components/components.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
 	imports: [
@@ -15,6 +16,7 @@ import { ComponentsModule } from 'src/app/components/components.module';
 		FormsModule,
 		IonicModule,
 		ComponentsModule,
+		FlexLayoutModule,
 		KontaktPageRoutingModule
 	],
 	declarations: [KontaktPage]

@@ -28,14 +28,14 @@ export class AppComponent implements OnInit {
 			icon: 'construct'
 		},
 		{
+			title: 'Kontakta Oss',
+			url: '/kontakt',
+			icon: 'call'
+		},
+		{
 			title: 'Om Företaget',
 			url: '/about',
 			icon: 'business'
-		},
-		{
-			title: 'Kontakt',
-			url: '/kontakt',
-			icon: 'call'
 		},
 	];
 	public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];

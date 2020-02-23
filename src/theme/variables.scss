@@ -226,6 +226,12 @@
   ion-title.title-large {
     --color: white;
 	}
+	p {
+		color: white;
+	}
+	ion-card {
+		max-width: 600px;
+	}
 	// ion-menu {
 	// 	--max-width: 200px;
 	// }

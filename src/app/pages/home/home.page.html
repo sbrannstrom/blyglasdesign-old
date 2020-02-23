@@ -1,50 +1,47 @@
-
 <app-header></app-header>
 
 <ion-content [fullscreen]="true">
 
-	<ion-slides #slides pager="false" [options]="slideOpts">
+	<ion-slides #slides pager="false" [options]="slideOpts" class="ion-padding-bottom">
 		<ion-slide>
 			<img src="./assets/church.jpeg">
 		</ion-slide>
 	</ion-slides>
 
-	<div>
-		<ion-card>
+	<div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="32px">
+		<ion-card class="ion-margin-bottom">
 			<!-- <img src="./madison.jpg" /> -->
 			<ion-card-header>
+				<ion-card-title>Glasmästeriet Blyglasdesign</ion-card-title>
 				<ion-card-subtitle>Ett traditionellt glasmästeri med antikvarisk inriktning</ion-card-subtitle>
 			</ion-card-header>
 			<ion-card-content>
 				<p>
-					Glasmästeriet Blyglasdesign Luleå AB är ett traditionellt glasmästeri från Luleå, Norrbotten med över 40 års
+					<ion-text color="primary"> Glasmästeriet Blyglasdesign Luleå AB </ion-text> är ett traditionellt glasmästeri
+					från Luleå, Norrbotten med över 40 års
 					erfarenhet inom yrket. Vi arbetar primärt med traditionellt glasarbete samt tillverkning av blyinfattat glas i
 					olika mönster och färger på beställning till både privat och offentlig miljö i hela Sverige.
 				</p>
 			</ion-card-content>
 		</ion-card>
-		<!-- <mat-card class="example-card">
-			<mat-card-content>
-				<h4>
-					Ett traditionellt glasmästeri med antikvarisk inriktning
-				</h4>
-				<p>
-					Glasmästeriet Blyglasdesign Luleå AB är ett traditionellt glasmästeri från Luleå, Norrbotten med över 40 års
-					erfarenhet inom yrket. Vi arbetar primärt med traditionellt glasarbete samt tillverkning av blyinfattat glas i
-					olika mönster och färger på beställning till både privat och offentlig miljö i hela Sverige.
-				</p>
-			</mat-card-content>
-		</mat-card> -->
 	</div>
+	<br>
+	<div fxLayout="row" fxLayoutAlign="space-around" fxLayoutGap="5px" fxFlex="1 0 100%">
+		<ion-avatar>
+			<img src="./assets/avatars/1.jpg">
+		</ion-avatar>
+		<ion-avatar>
+			<img src="./assets/avatars/2.jpg">
+		</ion-avatar>
+		<ion-avatar>
+			<img src="./assets/avatars/3.jpg">
+		</ion-avatar>
+		<ion-avatar>
+			<img src="./assets/avatars/4.jpg">
+		</ion-avatar>
+		<ion-avatar>
+			<img src="./assets/avatars/5.jpg">
+		</ion-avatar>
+	</div>
+	<br>
 </ion-content>
-
-<ion-footer class="ion-no-border">
-	<ion-item class="ion-text-center">
-		<ion-label class="ion-text-wrap">
-			<p>Glasmästeriet Blyglasdesign Luleå AB 556888-6633</p>
-		</ion-label>
-	</ion-item>
-	<!-- <ion-toolbar>
-		<ion-title>Footer - No Border</ion-title>
-	</ion-toolbar> -->
-</ion-footer>

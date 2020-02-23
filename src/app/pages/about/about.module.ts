@@ -8,6 +8,8 @@ import { AboutPageRoutingModule } from './about-routing.module';
 
 import { AboutPage } from './about.page';
 import { ComponentsModule } from 'src/app/components/components.module';
+import { MatDividerModule } from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
 	imports: [
@@ -15,6 +17,8 @@ import { ComponentsModule } from 'src/app/components/components.module';
 		FormsModule,
 		IonicModule,
 		ComponentsModule,
+		MatDividerModule,
+		FlexLayoutModule,
 		AboutPageRoutingModule
 	],
 	declarations: [AboutPage]

@@ -1,5 +1,40 @@
 <app-header></app-header>
 
-<ion-content>
-
+<ion-content [fullscreen]="true">
+	<div fxLayout="row" fxLayoutAlign="center" fxLayoutGap="32px" fxFlex="1 0 100%">
+		<ion-card style="width: 600px;">
+			<ion-card-header>
+				<ion-card-title>Om Företaget</ion-card-title>
+				<ion-card-subtitle>Glasmästeriet Blyglasdesign</ion-card-subtitle>
+			</ion-card-header>
+			<ion-card-content class="ion-text-wrap">
+				<p>
+					<ion-text color="primary"> Glasmästeriet Blyglasdesign Luleå AB </ion-text> är ett certifierat glasmästeri som
+					primärt arbetar med traditionellt
+					glasarbete samt tillverkning av blyinfattat glas i olika mönster och färger på beställning till både privat
+					och
+					offentlig miljö.
+				</p>
+				<br>
+				<p>
+					Vi har ett förhållandevis stort lager av glas som representerar olika tidsepoker och alltid ett
+					antikvariskt tänkande vid montering.
+				</p>
+				<br>
+				<br>
+				<ion-item detail button [routerLink]="['/renovering']" routerDirection="forward">
+					<ion-label class="ion-text-wrap certifiedText">
+						Vi är certifierade fönsterspecialister som även arbetar med renovering av fönster.
+					</ion-label>
+				</ion-item>
+			</ion-card-content>
+		</ion-card>
+	</div>
 </ion-content>
+<ion-footer class="ion-no-border">
+	<ion-item class="ion-text-center">
+		<ion-label class="ion-text-wrap">
+			<p>Glasmästeriet Blyglasdesign Luleå AB 556888-6633</p>
+		</ion-label>
+	</ion-item>
+</ion-footer>
