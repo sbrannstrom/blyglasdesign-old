@@ -1,0 +1,50 @@
+
+<app-header></app-header>
+
+<ion-content [fullscreen]="true">
+
+	<ion-slides #slides pager="false" [options]="slideOpts">
+		<ion-slide>
+			<img src="./assets/church.jpeg">
+		</ion-slide>
+	</ion-slides>
+
+	<div>
+		<ion-card>
+			<!-- <img src="./madison.jpg" /> -->
+			<ion-card-header>
+				<ion-card-subtitle>Ett traditionellt glasmästeri med antikvarisk inriktning</ion-card-subtitle>
+			</ion-card-header>
+			<ion-card-content>
+				<p>
+					Glasmästeriet Blyglasdesign Luleå AB är ett traditionellt glasmästeri från Luleå, Norrbotten med över 40 års
+					erfarenhet inom yrket. Vi arbetar primärt med traditionellt glasarbete samt tillverkning av blyinfattat glas i
+					olika mönster och färger på beställning till både privat och offentlig miljö i hela Sverige.
+				</p>
+			</ion-card-content>
+		</ion-card>
+		<!-- <mat-card class="example-card">
+			<mat-card-content>
+				<h4>
+					Ett traditionellt glasmästeri med antikvarisk inriktning
+				</h4>
+				<p>
+					Glasmästeriet Blyglasdesign Luleå AB är ett traditionellt glasmästeri från Luleå, Norrbotten med över 40 års
+					erfarenhet inom yrket. Vi arbetar primärt med traditionellt glasarbete samt tillverkning av blyinfattat glas i
+					olika mönster och färger på beställning till både privat och offentlig miljö i hela Sverige.
+				</p>
+			</mat-card-content>
+		</mat-card> -->
+	</div>
+</ion-content>
+
+<ion-footer class="ion-no-border">
+	<ion-item class="ion-text-center">
+		<ion-label class="ion-text-wrap">
+			<p>Glasmästeriet Blyglasdesign Luleå AB 556888-6633</p>
+		</ion-label>
+	</ion-item>
+	<!-- <ion-toolbar>
+		<ion-title>Footer - No Border</ion-title>
+	</ion-toolbar> -->
+</ion-footer>
